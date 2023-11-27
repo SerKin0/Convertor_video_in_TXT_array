@@ -27,6 +27,7 @@ int main() {
     COORD bufferSize = { 200, 500 };  // устанавливаем размер буфера консоли
     SetConsoleScreenBufferSize(hConsole, bufferSize);
 
+
     for (int i = 0; i < 2400; i++) {
         system("cls");
         std::cout << i << std::endl;
